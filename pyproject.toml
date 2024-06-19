@@ -5,12 +5,19 @@ description = "Script to help you learn the positions of each characters in the 
 authors = [
     { name = "Havsalt", email = "knutolaihelgesen@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "keyboard~=0.13.5",
+    "actus~=0.7.0",
+    "colex~=0.2.0",
+]
 readme = "README.md"
 requires-python = ">= 3.10"
 
 [project.scripts]
 "main" = "alphabet:main"
+
+[tool.poe.tasks]
+m = "python -m alphabet"
 
 [build-system]
 requires = ["hatchling"]
