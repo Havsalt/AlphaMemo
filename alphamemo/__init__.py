@@ -1,3 +1,9 @@
+"""
+AlphaMemo
+
+Script to help you memorize the position of each letter in the alphabet
+"""
+
 import random
 import time
 import os
