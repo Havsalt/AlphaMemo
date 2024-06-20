@@ -1,5 +1,5 @@
 [project]
-name = "alphabet"
+name = "alphamemo"
 version = "0.1.0"
 description = "Script to help you memorize the position of each letter in the alphabet"
 authors = [
