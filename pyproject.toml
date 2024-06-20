@@ -1,7 +1,7 @@
 [project]
 name = "alphabet"
 version = "0.1.0"
-description = "Script to help you learn the positions of each characters in the alphabet"
+description = "Script to help you memorize the position of each letter in the alphabet"
 authors = [
     { name = "Havsalt", email = "knutolaihelgesen@gmail.com" }
 ]
@@ -14,10 +14,10 @@ readme = "README.md"
 requires-python = ">= 3.10"
 
 [project.scripts]
-"main" = "alphabet:main"
+"main" = "alphamemo:main"
 
 [tool.poe.tasks]
-m = "python -m alphabet"
+m = "python -m alphamemo"
 
 [build-system]
 requires = ["hatchling"]
@@ -31,4 +31,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["alphabet"]
+packages = ["alphamemo"]
